@@ -215,7 +215,7 @@ void jogarRickroll(int ciclos) {
             }
 
             imprimirQuadro(&q);
-            esperar(500); // 0.3s
+            esperar(200); // 0.2s
             limparTela();
         }
     }
