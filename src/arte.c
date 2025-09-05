@@ -149,9 +149,13 @@ void jogarBeerPong(int numCopos) {
             printf("Parabens! Você derrubou todos os copos!\n");
             break;
         }
+        
+        do {
+            printf("Deseja jogar novamente? (s/n): ");
+            scanf(" %c", &continuar);
+        } while (continuar != 's' && continuar != 'S' && continuar != 'n' && continuar != 'N');
 
-        printf("Deseja jogar novamente? (s/n): ");
-        scanf(" %c", &continuar);
+
     }
 }
 
