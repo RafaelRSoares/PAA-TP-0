@@ -33,19 +33,19 @@ int main() {
         }
         scanf("%d", &qtd);
 
-        // ---- OPÇÃO 5: Beer Pong ----
+        //OPÇÃO 5: Beer Pong
         if (tipo == FIGURA_CUSTOM) {
             if (qtd <= 0) qtd = (rand() % 20) + 1;
             if (qtd > 20) qtd = 20;
-            jogarBeerPong(qtd); // já tem a validação de sair só com 'n'
+            jogarBeerPong(qtd);
         }
-        // ---- OPÇÃO 6: Rickroll ----
+        //OPÇÃO 6: Rickroll XD
         else if (tipo == FIGURA_RICKROLL) {
-            if (qtd <= 0) qtd = (rand() % 11) + 5; // entre 5 e 15 ciclos
+            if (qtd <= 0) qtd = (rand() % 11) + 5;
             if (qtd > 20) qtd = 20;
             jogarRickroll(qtd);
         }
-        // ---- OPÇÕES 1 a 4 ----
+        //OPÇÕES 1 a 4
         else {
             if (qtd <= 0) qtd = (rand() % 100) + 1;
             if (qtd > 100) qtd = 100;

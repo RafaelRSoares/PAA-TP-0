@@ -103,7 +103,7 @@ void desenharFigura(Quadro *q, int linha, int coluna, int tipo) {
     }
 }
 
-// Implementação da opção 5: Beer Pong
+//Implementação da opção 5: Beer Pong
 void jogarBeerPong(int numCopos) {
     Quadro q;
     inicializarQuadro(&q);
@@ -224,5 +224,5 @@ void jogarRickroll(int ciclos) {
         }
     }
 
-    printf("Never gonna give you up...\nNever gonna let you down...\nNever gonna run around and desert you!\n");
+    printf("Never gonna give you up...\nNever gonna let you down...\nNever gonna run around and, desert you!\n");
 }
